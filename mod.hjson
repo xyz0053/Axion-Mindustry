@@ -1,0 +1,8 @@
+name: "axion-mod"
+displayName: "Axion"
+author: 53_Axis
+description: "Developing..."
+version: "1.0"
+minGameVersion: "154.3"
+dependencies: [ ]
+hidden: false

@@ -1,0 +1,40 @@
+  "type": "PowerTurret",
+  "name": "Frenzy",
+  "description": "Rapidly fires arcs of electricity at ground targets.",
+  "health": 300,
+  "size": 1,
+  "reload": 10,
+  "range": 80,
+  "shootCone": 40,
+  "rotateSpeed": 5,
+  "powerUse": 2.5,
+  "targetAir": false,
+  "targetGround": true,
+  "shoot": {
+    "shootSound": "shootArc",
+    "firstShotDelay": 10
+  },
+  "shootType": {
+    "type": "LightningBulletType",
+    "damage": 20,
+    "lightningLength": 10,
+    "lightningCone": 0,
+    "shootEffect": "lightningShoot", 
+    "smokeEffect": "none",
+    "hitSound": "spark"
+    "hitEffect": "hitLancer"
+    "buildingDamageMultiplier": 0.25
+  },
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.1,
+  },
+  "coolantMultiplier": 4,
+  "requirements": [
+    { "item": "copper", "amount": 50 },
+    { "item": "lead", "amount": 50 },
+    { "item": "silicon", "amount": 5 }
+  ],
+  "category": "turret",
+  "research": "arc",
+  "outlineRadius": 0,

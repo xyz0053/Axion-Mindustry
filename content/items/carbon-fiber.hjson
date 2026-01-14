@@ -1,0 +1,6 @@
+  "type": "item",
+  "name": "Carbon Fiber",
+  "description": "A strong, lightweight material made of thin, crystalline carbon filaments bonded into fibers.",
+  "color": "171717",
+  "hardness": 3,
+  "lowPriority": false
