@@ -22,7 +22,7 @@ coolant: {
 
 ammoTypes: {
     copper: {
-        damage: 77
+        damage: 287
         ammoMultiplier: 2
         hitSize: 16
         lifetime: 24
@@ -35,12 +35,12 @@ ammoTypes: {
     }
     
     pyratite: {
-        damage: 82
+        damage: 314
         ammoMultiplier: 2
         hitSize: 16
         lifetime: 24
         speed: 10
-        statusDuration: 140
+        statusDuration: 240
         shootEffect: shootSmall
         status: burning
         makeFire: true
@@ -51,7 +51,7 @@ ammoTypes: {
     },
 
     thorium: {
-        damage: 110
+        damage: 342
         ammoMultiplier: 3
         hitSize: 16
         lifetime: 24
@@ -67,7 +67,8 @@ ammoTypes: {
 requirements: [
     copper/250
     graphite/175
-    titanium/100
+    titanium/200
+    carbon-fiber/100
 ]
 
 research: salvo
