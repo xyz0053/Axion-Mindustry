@@ -10,35 +10,14 @@ craftTime: 120
 consumes: {
     items: {
         items: [
-            coal/6
+            sand/4
+            titanium/2
         ]
     }
     power: 1
 }
 
-craftEffect: [
-  {
-    type: RadialEffect
-    rotationSpacing: 0
-    amount: 1
-    effect: {
-        type: ParticleEffect
-        particles: 4
-        lifetime: 90
-        sizeFrom: 1.8
-        useRotation: false
-        baseRotation: 0
-        sizeTo: 0
-        colorFrom: 808080FF
-        colorTo: 808080FF
-        length: 16
-        baseLength: 0
-        cone: 360
-        interp: pow2
-        sizeInterp: pow3In
-    }
-  }
-]
+craftEffect: smeltsmoke
 
 outputItem: composite-ceramic/2
 
@@ -50,4 +29,3 @@ requirements: [
 category: crafting
 
 research: graphite-press
-
