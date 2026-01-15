@@ -6,6 +6,7 @@ range: 220
 reload: 75
 recoil: 3
 rotateSpeed: 4
+cooldownTime: 100
 shake: 2
 targetAir: true
 size: 3
