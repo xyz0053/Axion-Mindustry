@@ -69,9 +69,10 @@ requirements: [
     copper/250
     graphite/175
     titanium/200
-    carbon-fiber/100
+    carbon-fiber/50
 ]
 
 research: salvo
 category: "turret",
 outlineRadius: 0,
+
