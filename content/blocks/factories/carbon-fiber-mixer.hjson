@@ -1,0 +1,42 @@
+name: "Carbon Fiber Mixer"
+description: "A factory that mixes coal to produce high-strength carbon fiber."
+
+type: GenericCrafter
+size: 2
+health: 250
+
+craftTime: 120
+
+consumes: {
+    items: {
+        items: [
+            coal/6
+        ]
+    }
+    power: 1
+}
+
+craftEffect: {
+    type: SoundEffect
+    sound: shootCleroi
+    minVolume: 0.3
+    maxVolume: 0.3
+    minPitch: 0.7
+    maxPitch: 0.7
+    effect: {
+        type: RadialEffect
+        amount: 1
+        effect: shockwaveSmaller
+    }
+}
+
+outputItem: carbon-fiber/2
+
+requirements: [
+    copper/45
+    lead/30
+]
+
+category: crafting
+
+research: graphite-press
