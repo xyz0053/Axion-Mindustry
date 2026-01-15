@@ -22,7 +22,7 @@ coolant: {
 
 ammoTypes: {
     copper: {
-        damage: 92
+        damage: 287
         ammoMultiplier: 2
         hitSize: 16
         lifetime: 24
@@ -35,12 +35,12 @@ ammoTypes: {
     }
     
     pyratite: {
-        damage: 98
+        damage: 314
         ammoMultiplier: 2
         hitSize: 16
         lifetime: 24
         speed: 10
-        statusDuration: 140
+        statusDuration: 240
         shootEffect: shootSmall
         status: burning
         makeFire: true
@@ -51,7 +51,7 @@ ammoTypes: {
     },
 
     thorium: {
-        damage: 127
+        damage: 342
         ammoMultiplier: 3
         hitSize: 16
         lifetime: 24
