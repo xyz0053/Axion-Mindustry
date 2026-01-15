@@ -10,7 +10,8 @@ craftTime: 120
 consumes: {
     items: {
         items: [
-            coal/6
+            sand/4
+            titanium/2
         ]
     }
     power: 1
