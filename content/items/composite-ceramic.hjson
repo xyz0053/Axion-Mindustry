@@ -1,0 +1,6 @@
+  "type": "item",
+  "name": "Composite Ceramic",
+  "description": "A strong material made by compressing titanium and sand, Particularly resistant to heat.",
+  "color": "171717",
+  "hardness": 3,
+  "lowPriority": false
