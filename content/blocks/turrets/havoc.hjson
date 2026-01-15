@@ -1,0 +1,75 @@
+type: ItemTurret
+name: Havoc
+description: A powerful force is condensed into a single bullet and fired. It is vulnerable when facing many enemies.
+health: 1130
+range: 220
+reload: 75
+recoil: 3
+rotateSpeed: 4
+shake: 2
+targetAir: true
+size: 3
+inaccuracy: 2
+ammoPerShot: 1
+maxAmmo: 10
+
+coolantMultiplier: 10
+
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.1
+}
+
+ammoTypes: {
+    copper: {
+        damage: 108
+        ammoMultiplier: 2
+        hitSize: 16
+        lifetime: 24
+        speed: 10
+        shootEffect: shootSmall
+        width: 16
+        height: 16
+        frontColor: d49e85
+        backColor: ddbaa9
+    }
+    
+    pyratite: {
+        damage: 121
+        ammoMultiplier: 2
+        hitSize: 16
+        lifetime: 24
+        speed: 10
+        statusDuration: 140
+        shootEffect: shootSmall
+        status: burning
+        makeFire: true
+        width: 16
+        height: 16
+        frontColor: e58956
+        backColor: ffd2ae
+    },
+
+    thorium: {
+        damage: 157
+        ammoMultiplier: 3
+        hitSize: 16
+        lifetime: 24
+        speed: 10
+        shootEffect: shootSmall
+        width: 16
+        height: 16
+        frontColor: e07ef8
+        backColor: e797fc
+    }
+}
+
+requirements: [
+    copper/250
+    graphite/175
+    titanium/100
+]
+
+research: salvo
+category: "turret",
+outlineRadius: 0,
