@@ -44,9 +44,10 @@ outputItem: carbon-fiber/2
 
 requirements: [
     copper/145
-    lead/30
+    lead/70
 ]
 
 category: crafting
 
 research: graphite-press
+
