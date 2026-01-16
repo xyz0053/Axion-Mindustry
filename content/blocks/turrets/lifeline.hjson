@@ -58,7 +58,26 @@ ammoTypes: {
         frontColor: a5ff9e
         backColor: a5ff9e
         collidesTeam: true
-        healPercent: 8.5
+        healPercent: 4
+
+        # 파편탄
+
+        fragBullets: 6
+
+        fragBullet: {
+            hitSize: 6
+            lifetime: 8
+            speed: 7
+            shootEffect: none
+            hitEffect: hitMeltHeal
+            despawnEffect: hitMeltHeal
+            width: 6
+            height: 6
+            frontColor: a5ff9e
+            backColor: a5ff9e
+            collidesTeam: true
+            healAmount: 10
+        }
     },
 
     phase-fabric: {
@@ -75,7 +94,7 @@ ammoTypes: {
         frontColor: dbd57b
         backColor: dbd57b
         collidesTeam: true
-        healPercent: 11
+        healPercent: 8.5
     }
 }
 
