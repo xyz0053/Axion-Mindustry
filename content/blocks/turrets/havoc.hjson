@@ -28,7 +28,7 @@ ammoTypes: {
         hitSize: 16
         lifetime: 24
         speed: 10
-        shootEffect: shootSmall
+        shootEffect: shootBig
         width: 16
         height: 16
         frontColor: d49e85
@@ -42,7 +42,7 @@ ammoTypes: {
         lifetime: 24
         speed: 10
         statusDuration: 240
-        shootEffect: shootSmall
+        shootEffect: shootBig
         status: burning
         makeFire: true
         width: 16
@@ -57,7 +57,7 @@ ammoTypes: {
         hitSize: 16
         lifetime: 24
         speed: 10
-        shootEffect: shootSmall
+        shootEffect: shootBig
         width: 16
         height: 16
         frontColor: e07ef8
