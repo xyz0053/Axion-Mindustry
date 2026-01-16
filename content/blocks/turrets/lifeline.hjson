@@ -7,7 +7,7 @@ reload: 20
 recoil: 1
 rotateSpeed: 4.5
 cooldownTime: 100
-shake: 0.5
+shake: 0.4
 targetGround: false
 targetAir: false
 size: 3
