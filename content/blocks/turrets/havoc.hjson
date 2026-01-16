@@ -13,6 +13,7 @@ size: 3
 inaccuracy: 2
 ammoPerShot: 1
 maxAmmo: 10
+liquidCapacity: 350
 
 coolantMultiplier: 10
 
