@@ -58,7 +58,7 @@ ammoTypes: {
         frontColor: a5ff9e
         backColor: a5ff9e
         collidesTeam: true
-        healAmount: 150
+        healAmount: 250
     },
 
     phase-fabric: {
@@ -75,7 +75,7 @@ ammoTypes: {
         frontColor: dbd57b
         backColor: dbd57b
         collidesTeam: true
-        healAmount: 190
+        healAmount: 290
     }
 }
 
