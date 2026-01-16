@@ -32,6 +32,6 @@
     { "item": "lead", "amount": 50 },
     { "item": "silicon", "amount": 5 }
   ],
-  "category": "turret",
-  "research": "arc",
-  "outlineRadius": 0,
+  "category": "turret"
+  "research": "arc"
+  "outlineRadius": 0
