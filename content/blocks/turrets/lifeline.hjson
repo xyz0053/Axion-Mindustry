@@ -1,0 +1,86 @@
+type: ItemTurret
+name: Lifeline
+description: Fires healing rounds at nearby damaged allied buildings.s
+health: 1460
+range: 180
+reload: 20
+recoil: 1
+rotateSpeed: 4.5
+cooldownTime: 100
+shake: 0.5
+targetGround: false
+targetAir: false
+size: 3
+inaccuracy: 0
+ammoPerShot: 1
+maxAmmo: 10
+
+targetHealing: true
+
+shootSound: acceleratorLightning1
+shootSoundVolume: 0.4
+soundPitchMin: 1.3
+soundPitchMax: 1.7
+
+shoot: {
+    type: ShootBarrel
+    shots: 3
+    shotDelay: 3
+    barrels: [
+        0, -10, 0
+  ]
+}
+
+consumes: {
+  power: 2.5
+}
+
+coolantMultiplier: 2
+
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.1
+}
+
+ammoTypes: {
+    plastanium: {
+        damage: 12
+        ammoMultiplier: 4
+        hitSize: 8
+        lifetime: 27
+        speed: 7
+        shootEffect: shootHeal
+        width: 8
+        height: 8
+        frontColor: a5ff9e
+        backColor: a5ff9e
+        collidesTeam: true
+        healAmount: 170
+    },
+
+    phase-fabric: {
+        damage: 14
+        ammoMultiplier: 4
+        hitSize: 8
+        lifetime: 27
+        speed: 7
+        shootEffect: shootHealYellow
+        width: 8
+        height: 8
+        frontColor: dbd57b
+        backColor: dbd57b
+        collidesTeam: true
+        healAmount: 210
+    }
+}
+
+requirements: [
+    titanium/300
+    thorium/160
+    silicon/200
+    plastanium/70
+]
+
+research: cyclone
+category: turret
+outlineRadius: 0
