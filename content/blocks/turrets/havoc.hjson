@@ -10,7 +10,7 @@ cooldownTime: 100
 shake: 2
 targetAir: true
 size: 3
-inaccuracy: 2
+inaccuracy: 0
 ammoPerShot: 1
 maxAmmo: 10
 liquidCapacity: 350
