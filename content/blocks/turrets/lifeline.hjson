@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Lifeline
-description: Fires healing rounds at nearby damaged allied buildings.s
+description: Fires healing rounds at nearby damaged allied buildings.
 health: 1460
 range: 180
 reload: 20

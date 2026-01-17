@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Freezer
+description: A powerful force is condensed into a single bullet and fired. It is vulnerable when facing many enemies.
+health: 1130
+range: 220
+reload: 20
+recoil: 0.8
+rotateSpeed: 4
+cooldownTime: 100
+shake: 0.3
+targetAir: true
+size: 2
+inaccuracy: 3
+ammoPerShot: 1
+maxAmmo: 10
+liquidCapacity: 40
+
+consumes: {
+    power: 3.5
+
+    liquid: {
+        liquid: cryofluid
+        amount: 0.4
+    }
+}
+
+ammoTypes: {
+    titanium: {
+        damage: 12
+        ammoMultiplier: 2
+        hitSize: 8
+        lifetime: 24
+        speed: 10
+        shootEffect: shootLiquid
+        shootSound: stepWater
+        hitEffect: hitLiquid
+        despawnEffect: hitLiquid
+        statusDuration: 120
+        status: freezing
+        width: 8
+        height: 8
+        impact: true
+        knockback: 1.3
+        sprite: axion-mod-icicle
+    }
+}
+
+requirements: [
+    copper/250
+    graphite/175
+    titanium/200
+]
+
+research: salvo
+category: turret
+outlineRadius: 0
